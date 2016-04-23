@@ -4,20 +4,48 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="section">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <div class="fluid-container">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+      <div class="row image-container">
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        <div class="col-md-4 main-images">
+          <img src="http://placehold.it/1367x2048">
+        </div>
+
+        <div class="col-md-4 main-images">
+          <img src="http://placehold.it/1367x2048">
+        </div>
+
+        <div class="col-md-4 main-images">
+          <img src="http://placehold.it/1367x2048">
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="section">
+
+    <div class="container">
+
+      <div class="row about-me">
+
+        <div class="col-md-2">
+          <img class="about-image" src="http://placehold.it/150x150">
+        </div>
+
+        <div class="col-md-10">
+          <h2>Hi, I'm Laura</h2>
+          <p>Chicharrones vice freegan, before they sold out thundercats farm-to-table deep v. Narwhal church-key bushwick cornhole, taxidermy street art irony aesthetic actually trust fund beard. Deep v flannel hammock, 3 wolf moon godard cronut yr chambray echo park. Sartorial ethical chartreuse deep v actually affogato. Blog narwhal quinoa drinking vinegar stumptown austin, affogato 90's.</p>
+
+      </div>
+
+    </div>
+
+  </div>
 
 </div>

@@ -2,35 +2,41 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    <div class="site-tagline">
+      <p>WEDDING AND FAMILY PHOTOGRAPHY | LOUISVILLE, KENTUCKY, AND INDIANA | <a href="mailto:hello@lauracookphoto.com">HELLO@LAURACOOKPHOTO.COM</a> | <span class="fix-num">954.319.5565</span></p>
+    </div>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
+    <div class="social-media-container">
+      <ul class="social-media-list">
+        <li>
+          <a href="https://www.instagram.com/laura.cook.photo/" title="instagram">
+            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/Lauracooktakespictures/" title="facebook">
+            <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.pinterest.com/Lauratakespics/" title="pinterest">
+            <i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:hello@lauracookphoto.com" title="email">
+            <i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
+    <div class="bottom-logo">
 
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
+      <a href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/assets/alt-logo.png" alt="Laura Cook Photography">
+      </a>
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
     </div>
 
   </div>

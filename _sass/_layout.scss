@@ -200,13 +200,15 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+    padding: ($padding-unit * 4) 0;
 }
 
 .post-title {
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    font-weight: 100;
+    text-align: center;
 
     @include media-query($on-laptop) {
         font-size: 36px;

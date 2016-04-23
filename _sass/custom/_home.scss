@@ -1,0 +1,20 @@
+.home {
+  .section {
+    padding: ($padding-unit * 3) 0;
+
+    .image-container {
+
+      .main-images {
+        padding: $padding-unit * 3;
+      }
+    }
+
+    .about-me {
+      align-items: center;
+
+      .about-image {
+        border-radius: 50%;
+      }
+    }
+  }
+}
